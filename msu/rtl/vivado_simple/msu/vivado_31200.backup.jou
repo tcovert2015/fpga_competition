@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Aug 24 08:06:01 2019
+# Process ID: 31200
+# Current directory: /home/travis/git_repo/vdf-fpga/msu/rtl/vivado_simple/msu
+# Command line: vivado msu.xpr
+# Log file: /home/travis/git_repo/vdf-fpga/msu/rtl/vivado_simple/msu/vivado.log
+# Journal file: /home/travis/git_repo/vdf-fpga/msu/rtl/vivado_simple/msu/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project msu.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+close_sim

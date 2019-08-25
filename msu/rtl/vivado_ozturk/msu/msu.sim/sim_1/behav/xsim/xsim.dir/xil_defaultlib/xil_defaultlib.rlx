@@ -1,0 +1,13 @@
+0.6
+2018.3
+Dec  6 2018
+23:39:36
+/home/travis/git_repo/vdf-fpga/modular_square/rtl/modular_square_8_cycles.sv,1566611839,systemVerilog,,/home/travis/git_repo/vdf-fpga/msu/rtl/modular_square_wrapper.sv,,modular_square_8_cycles,,,../../../../../msu.srcs,FASTSIM=1,,,,
+/home/travis/git_repo/vdf-fpga/msu/rtl/modular_square_wrapper.sv,1566611839,systemVerilog,,/home/travis/git_repo/vdf-fpga/primitives/rtl/multiplier.sv,,modular_square_wrapper,,,../../../../../msu.srcs,FASTSIM=1,,,,
+/home/travis/git_repo/vdf-fpga/msu/rtl/vivado_ozturk/msu.srcs/mem/reduction_lut.sv,1566655887,systemVerilog,,/home/travis/git_repo/vdf-fpga/msu/rtl/vivado_ozturk/msu.srcs/tb.sv,,reduction_lut,,,../../../../../msu.srcs,FASTSIM=1,,,,
+/home/travis/git_repo/vdf-fpga/msu/rtl/vivado_ozturk/msu.srcs/msuconfig.vh,1566655887,verilog,,,,,,,,,,,,
+/home/travis/git_repo/vdf-fpga/msu/rtl/vivado_ozturk/msu.srcs/tb.sv,1566611839,systemVerilog,,,/home/travis/git_repo/vdf-fpga/msu/rtl/vivado_ozturk/msu.srcs/msuconfig.vh,tb,,,../../../../../msu.srcs,FASTSIM=1,,,,
+/home/travis/git_repo/vdf-fpga/msu/rtl/vivado_ozturk/msu/msu.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+/home/travis/git_repo/vdf-fpga/primitives/rtl/compressor_tree_3_to_2.sv,1566611839,systemVerilog,,/home/travis/git_repo/vdf-fpga/modular_square/rtl/modular_square_8_cycles.sv,,compressor_tree_3_to_2,,,../../../../../msu.srcs,FASTSIM=1,,,,
+/home/travis/git_repo/vdf-fpga/primitives/rtl/multiplier.sv,1566611839,systemVerilog,,/home/travis/git_repo/vdf-fpga/primitives/rtl/multiply.sv,,multiplier,,,../../../../../msu.srcs,FASTSIM=1,,,,
+/home/travis/git_repo/vdf-fpga/primitives/rtl/multiply.sv,1566611839,systemVerilog,,/home/travis/git_repo/vdf-fpga/msu/rtl/vivado_ozturk/msu.srcs/mem/reduction_lut.sv,,multiply,,,../../../../../msu.srcs,FASTSIM=1,,,,

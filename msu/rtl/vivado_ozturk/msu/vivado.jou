@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Aug 24 09:11:33 2019
+# Process ID: 6521
+# Current directory: /home/travis/git_repo/vdf-fpga/msu/rtl/vivado_ozturk/msu
+# Command line: vivado msu.xpr
+# Log file: /home/travis/git_repo/vdf-fpga/msu/rtl/vivado_ozturk/msu/vivado.log
+# Journal file: /home/travis/git_repo/vdf-fpga/msu/rtl/vivado_ozturk/msu/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project msu.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config /home/travis/git_repo/vdf-fpga/msu/rtl/vivado_ozturk/tb_behav.wcfg
+source tb.tcl
+current_wave_config {}
+add_wave {{/tb/clk}} {{/tb/reset}} {{/tb/start}} {{/tb/valid}} {{/tb/modulus}} {{/tb/sq_in}} {{/tb/sq_out}} {{/tb/sq_out_expected}} {{/tb/sq_out_actual}} {{/tb/sq_out_reducing}} {{/tb/sq_out_reduced}} {{/tb/t_start}} {{/tb/t_final}} {{/tb/t_curr}} {{/tb/test_file}} {{/tb/i}} {{/tb/ret}} {{/tb/cycle_count}} {{/tb/error_count}} {{/tb/total_cycle_count}} {{/tb/total_squarings}} {{/tb/MOD_LEN}} {{/tb/WORD_LEN}} {{/tb/BIT_LEN}} {{/tb/AXI_LEN}} {{/tb/SQ_IN_BITS}} {{/tb/SQ_OUT_BITS}} {{/tb/MODULUS}} 
+current_wave_config {tb_behav.wcfg}
+add_wave {{/tb/uut/modsqr/clk}} {{/tb/uut/modsqr/reset}} {{/tb/uut/modsqr/start}} {{/tb/uut/modsqr/sq_in}} {{/tb/uut/modsqr/sq_out}} {{/tb/uut/modsqr/valid}} {{/tb/uut/modsqr/sq_in_d1}} {{/tb/uut/modsqr/start_d1}} {{/tb/uut/modsqr/sq_out_d1}} {{/tb/uut/modsqr/curr_sq_in}} {{/tb/uut/modsqr/next_cycle}} {{/tb/uut/modsqr/curr_cycle}} {{/tb/uut/modsqr/mul_result_shift}} {{/tb/uut/modsqr/mul1_first_select}} {{/tb/uut/modsqr/mul_A_select}} {{/tb/uut/modsqr/mul_B_select}} {{/tb/uut/modsqr/mul_A}} {{/tb/uut/modsqr/mul_B}} {{/tb/uut/modsqr/mul_cout}} {{/tb/uut/modsqr/mul_s}} {{/tb/uut/modsqr/grid}} {{/tb/uut/modsqr/C}} {{/tb/uut/modsqr/S}} {{/tb/uut/modsqr/grid_sum}} {{/tb/uut/modsqr/reduced_grid_sum}} {{/tb/uut/modsqr/v7v6}} {{/tb/uut/modsqr/v5_partial}} {{/tb/uut/modsqr/v5v4_partial}} {{/tb/uut/modsqr/v5v4}} {{/tb/uut/modsqr/v3_partial}} {{/tb/uut/modsqr/v3}} {{/tb/uut/modsqr/v2_partial}} {{/tb/uut/modsqr/v2v0}} {{/tb/uut/modsqr/curr_lookup_segment}} {{/tb/uut/modsqr/curr_lookup_shift}} {{/tb/uut/modsqr/curr_lookup_upper_table}} {{/tb/uut/modsqr/curr_lookup_check_overflow}} {{/tb/uut/modsqr/curr_overflow}} {{/tb/uut/modsqr/set_overflow}} {{/tb/uut/modsqr/v7v6_overflow}} {{/tb/uut/modsqr/v5v4_overflow}} {{/tb/uut/modsqr/lut_addr}} {{/tb/uut/modsqr/lut_data}} {{/tb/uut/modsqr/acc_stack}} {{/tb/uut/modsqr/acc_C}} {{/tb/uut/modsqr/acc_S}} {{/tb/uut/modsqr/acc_sum}} {{/tb/uut/modsqr/reduced_acc_sum}} {{/tb/uut/modsqr/out_valid}} {{/tb/uut/modsqr/REDUNDANT_ELEMENTS}} {{/tb/uut/modsqr/NONREDUNDANT_ELEMENTS}} {{/tb/uut/modsqr/NUM_SEGMENTS}} {{/tb/uut/modsqr/BIT_LEN}} {{/tb/uut/modsqr/WORD_LEN}} {{/tb/uut/modsqr/NUM_ELEMENTS}} {{/tb/uut/modsqr/SEGMENT_ELEMENTS}} {{/tb/uut/modsqr/MUL_NUM_ELEMENTS}} {{/tb/uut/modsqr/EXTRA_ELEMENTS}} {{/tb/uut/modsqr/ONE_SEGMENT}} {{/tb/uut/modsqr/TWO_SEGMENTS}} {{/tb/uut/modsqr/THREE_SEGMENTS}} {{/tb/uut/modsqr/NUM_MULTIPLIERS}} {{/tb/uut/modsqr/EXTRA_MUL_TREE_BITS}} {{/tb/uut/modsqr/MUL_BIT_LEN}} {{/tb/uut/modsqr/MAX_VALUE}} {{/tb/uut/modsqr/GRID_BIT_LEN}} {{/tb/uut/modsqr/GRID_PAD}} {{/tb/uut/modsqr/GRID_PAD_CARRY}} {{/tb/uut/modsqr/GRID_PAD_C_SHIFT}} {{/tb/uut/modsqr/GRID_PAD_RESULT}} {{/tb/uut/modsqr/GRID_NUM_ELEMENTS}} {{/tb/uut/modsqr/GRID_SIZE}} {{/tb/uut/modsqr/LOOK_UP_WIDTH}} {{/tb/uut/modsqr/LUT_SIZE}} {{/tb/uut/modsqr/LUT_MASK}} {{/tb/uut/modsqr/LUT_WIDTH}} {{/tb/uut/modsqr/ACC_ELEMENTS}} {{/tb/uut/modsqr/ACC_EXTRA_ELEMENTS}} {{/tb/uut/modsqr/ACC_EXTRA_BIT_LEN}} {{/tb/uut/modsqr/ACC_BIT_LEN}} {{/tb/uut/modsqr/IDLE}} {{/tb/uut/modsqr/CYCLE_0}} {{/tb/uut/modsqr/CYCLE_1}} {{/tb/uut/modsqr/CYCLE_2}} {{/tb/uut/modsqr/CYCLE_3}} {{/tb/uut/modsqr/CYCLE_4}} {{/tb/uut/modsqr/CYCLE_5}} {{/tb/uut/modsqr/CYCLE_6}} {{/tb/uut/modsqr/CYCLE_7}} {{/tb/uut/modsqr/CYCLE_8}} {{/tb/uut/modsqr/CYCLE_9}} {{/tb/uut/modsqr/NUM_CYCLES}} 
+current_wave_config {tb_behav.wcfg}
+add_wave {{/tb/clk}} {{/tb/reset}} {{/tb/start}} {{/tb/valid}} {{/tb/modulus}} {{/tb/sq_in}} {{/tb/sq_out}} {{/tb/sq_out_expected}} {{/tb/sq_out_actual}} {{/tb/sq_out_reducing}} {{/tb/sq_out_reduced}} {{/tb/t_start}} {{/tb/t_final}} {{/tb/t_curr}} {{/tb/test_file}} {{/tb/i}} {{/tb/ret}} {{/tb/cycle_count}} {{/tb/error_count}} {{/tb/total_cycle_count}} {{/tb/total_squarings}} {{/tb/MOD_LEN}} {{/tb/WORD_LEN}} {{/tb/BIT_LEN}} {{/tb/AXI_LEN}} {{/tb/SQ_IN_BITS}} {{/tb/SQ_OUT_BITS}} {{/tb/MODULUS}} 
+current_wave_config {tb_behav.wcfg}
+add_wave {{/tb/uut/clk}} {{/tb/uut/reset}} {{/tb/uut/start}} {{/tb/uut/sq_in}} {{/tb/uut/sq_out}} {{/tb/uut/valid}} {{/tb/uut/start_stages}} {{/tb/uut/sq_in_stages}} {{/tb/uut/sq_out_stages}} {{/tb/uut/valid_stages}} {{/tb/uut/MOD_LEN}} {{/tb/uut/WORD_LEN}} {{/tb/uut/REDUNDANT_ELEMENTS}} {{/tb/uut/NONREDUNDANT_ELEMENTS}} {{/tb/uut/NUM_ELEMENTS}} {{/tb/uut/SQ_OUT_BITS}} {{/tb/uut/BIT_LEN}} {{/tb/uut/IO_STAGES}} 
+pwd
+tb_wave.wcfg
+source tb_wave.wcfg
+pwd
+source ../tb_behav.wcfg
+close_sim
+launch_simulation
+open_wave_config /home/travis/git_repo/vdf-fpga/msu/rtl/vivado_ozturk/tb_behav.wcfg
+source tb.tcl
+close_sim

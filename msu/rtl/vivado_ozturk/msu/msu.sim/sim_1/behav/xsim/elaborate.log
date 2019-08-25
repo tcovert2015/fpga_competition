@@ -1,0 +1,8 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 872278eb39564f949ec99f73be033b6e --incr --debug typical --relax --mt 8 -d FASTSIM=1 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'we' [/home/travis/git_repo/vdf-fpga/modular_square/rtl/modular_square_8_cycles.sv:715]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

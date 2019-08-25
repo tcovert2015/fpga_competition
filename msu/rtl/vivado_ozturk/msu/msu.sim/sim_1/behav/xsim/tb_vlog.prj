@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../msu.srcs" -d "FASTSIM=1" \
+"../../../../../../../../primitives/rtl/compressor_tree_3_to_2.sv" \
+"../../../../../../../../modular_square/rtl/modular_square_8_cycles.sv" \
+"../../../../../../modular_square_wrapper.sv" \
+"../../../../../../../../primitives/rtl/multiplier.sv" \
+"../../../../../../../../primitives/rtl/multiply.sv" \
+"../../../../../msu.srcs/mem/reduction_lut.sv" \
+"../../../../../msu.srcs/tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

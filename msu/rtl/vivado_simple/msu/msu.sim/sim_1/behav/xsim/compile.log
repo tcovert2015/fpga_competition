@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/travis/git_repo/vdf-fpga/modular_square/rtl/modular_square_simple.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module modular_square_simple
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/travis/git_repo/vdf-fpga/msu/rtl/vivado_simple/msu.srcs/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb

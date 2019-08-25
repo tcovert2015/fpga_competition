@@ -1,0 +1,15 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 7b63cdd3631a4e78a6601f7938a52526 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/home/travis/git_repo/vdf-fpga/msu/rtl/vivado_simple/msu/msu.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.modular_square_simple
+Compiling module xil_defaultlib.tb
+WARNING: [XSIM 43-3373] "/home/travis/git_repo/vdf-fpga/msu/rtl/vivado_simple/msu.srcs/tb.sv" Line 93. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
