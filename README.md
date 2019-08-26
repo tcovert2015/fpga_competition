@@ -1,4 +1,4 @@
-# VDF FPGA Competition Baseline Model
+#  VDF FPGA Competition Baseline Model
 
 This repository contains the modular squaring multiplier baseline design for the VDF (Verifiable Delay Function) low latency multiplier FPGA competition. For more information about the research behind VDFs see <https://vdfresearch.org/>.
 
